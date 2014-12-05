@@ -6,10 +6,10 @@ $(document).ready(function() {
 		console.log(username);
 		if (username != null) {
 				$("#modal_trigger").remove();
-				var user = $('<a class="link" id="user" href="#"></a>');
+				var user = $('<a class="link" id="user" href="./my_mainpage.php"></a>');
 				user.html("Hello Foodie ");
 				$(".header-account").append(user);
-				var logout = $('<a class="link" id="logout" href="#"></a>');
+				var logout = $('<a class="link" id="logout" href=""></a>');
 				logout.html("/ logout");
 				$(".header-account").append(logout);
 		}
@@ -38,7 +38,7 @@ $(document).ready(function() {
 				var user = $('<a class="link" id="user" href="./my_mainpage.php"></a>');
 				user.html("Hello Foodie ");
 				$(".header-account").append(user);
-				var logout = $('<a class="link" id="logout" href="#"></a>');
+				var logout = $('<a class="link" id="logout" href=""></a>');
 				logout.html("/ logout");
 				$(".header-account").append(logout);
 				
@@ -69,10 +69,10 @@ $(document).ready(function() {
 					"display" : "none"
 				});
 				$("#modal_trigger").remove();
-				var user = $('<a class="link" id="user" href="#"></a>');
+				var user = $('<a class="link" id="user" href="./my_mainpage.php"></a>');
 				user.html("Hello Foodie!");
 				$(".header-account").append(user);
-				var logout = $('<a class="link" id="logout" href="#"></a>');
+				var logout = $('<a class="link" id="logout" href=""></a>');
 				logout.html("/ logout");
 				$(".header-account").append(logout);
 				
@@ -92,7 +92,7 @@ $(document).ready(function() {
 				console.log("success");
 				$("#user").remove();
 				$("#logout").remove();
-				var user = $('<a class="link" id="modal_trigger" href="#modal" >LOGIN/REGISTER</a>');
+				var user = $('<a class="link" id="modal_trigger" href="" >LOGIN/REGISTER</a>');
 				$(".header-account").append(user);
 				
 			}
