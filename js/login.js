@@ -35,7 +35,7 @@ $(document).ready(function() {
 					"display" : "none"
 				});
 				$("#modal_trigger").remove();
-				var user = $('<a class="link" id="user" href="#"></a>');
+				var user = $('<a class="link" id="user" href="./my_mainpage.php"></a>');
 				user.html("Hello Foodie ");
 				$(".header-account").append(user);
 				var logout = $('<a class="link" id="logout" href="#"></a>');
