@@ -179,7 +179,7 @@
                         <td>OID110321</td>
                         <td>23/Nov/2014</td>
                         <td>$8.75</td>
-                        <td><a href="url" target="_blank">View Details</a></td>
+                        <td><a href="./add_review.php" target="_blank">View Details</a></td>
                     </tr>
                     <tr>
                         <td>OID113241</td>
